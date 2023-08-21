@@ -1,0 +1,115 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block extra_head %}
+<link href="{% static 'css/blog.css' %}" rel="stylesheet">
+<link href="{% static 'css/about.css' %}" rel="stylesheet">
+<link href="{% static 'css/events.css' %}" rel="stylesheet">
+
+{% endblock %}
+{% block body %}
+
+
+<section id="about" class="about_testy clearfix">
+	<div class="about_main clearfix">
+	  <div class="container">
+	 <div class="row">
+	  <div class="about clearfix">
+	  <div class="col-sm-7 about_left clearfix">
+	   <div class="about_left_inner clearfix">
+		<h1>Events</h1>
+	   </div>
+	  </div>	 
+	  </div>
+	 </div>
+	</div>
+	</div>
+   </section>
+   
+   <section id="testimonial" class="clearfix">
+	 <div class="container">
+	  <div class="row">
+	   <div class="testimonial clearfix">
+		<div class="testimonial_top clearfix">
+		 <h1>Find out exciting Events <br>to join today!</h1>
+		</div>
+		<div class="testimonial_middle clearfix">
+		 <div class="col-sm-4 testimonial_middle_left clearfix">
+		  <div class="testimonial_middle_left_inner clearfix">
+		   <p><img src="{% static 'img/21.jpg' %}" width="100%"></p>
+		  </div>
+		 </div>
+		 <div class="col-sm-8 testimonial_middle_right clearfix">
+		  <div class="testimonial_middle_right_inner clearfix">
+		   <!-- <p><i class="fa-facebook"></i></p> -->
+		   <h4>Up for a screening of Mission Impossible? Join event for more info</h4>
+		   <h1><a href="#">CINEMAAAAA COMPANY</a></h1>
+		   <h6>Oveen PJ</h6>
+		  </div>
+		 </div>
+		</div>
+		<div class="testimonial_middle clearfix">
+		 <div class="col-sm-4 testimonial_middle_left clearfix">
+		  <div class="testimonial_middle_left_inner clearfix">
+		   <p><img src="{% static 'img/22.jpg' %}" width="100%"></p>
+		  </div>
+		 </div>
+		 <div class="col-sm-8 testimonial_middle_right clearfix">
+		  <div class="testimonial_middle_right_inner clearfix">
+		   <p><i class="fa-facebook"></i></p>
+		   <h4>Ready to catch a breath after a long hiking? Well wait no more.</h4>
+		   <h1><a href="#">HIKING CLUB</a></h1>
+		   <h6>Litora Torquent</h6>
+		  </div>
+		 </div>
+		</div>
+		<div class="testimonial_middle clearfix">
+		 <div class="col-sm-4 testimonial_middle_left clearfix">
+		  <div class="testimonial_middle_left_inner clearfix">
+		   <p><img src="{% static 'img/23.jpg' %}" width="100%"></p>
+		  </div>
+		 </div>
+		 <div class="col-sm-8 testimonial_middle_right clearfix">
+		  <div class="testimonial_middle_right_inner clearfix">
+		   <p><i class="fa-facebook"></i></p>
+		   <h4>Do you love reading? Would you like to join a group of readers. Get recommandations, get to know new books, talk about books.</h4>
+		   <h1><a href="#">READING CLUB</a></h1>
+		   <h6>Litora Torquent</h6>
+		  </div>
+		 </div>
+		</div>
+	   </div>
+	  </div>
+	 </div>
+   </section>
+   
+   
+   <section id="footer" class="clearfix">
+	   <div class="container">
+		<div class="row">
+		 <div class="footer clearfix">
+		  <div class="footer_top clearfix">
+		   <h2><a href="index.html">DotAge</a></h2>
+		  </div>
+		   <div class="col-sm-4 footer_middle_left clearfix">
+			<div class="footer_middle_left_inner clearfix">
+			 <h2>E-mail</h2>
+			 <p><a href="#">info@gmail.com</a></p>
+			 <p><a href="#">nulla@torquent.org</a></p>
+			 <hr class="hr_1">
+			</div>
+		   </div>
+		  </div>
+		  <div class="footer_bottom clearfix"> 
+		  <ul class="social-network social-circle">
+							  <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+							  <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+							  <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+							  <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+							  <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+			  </ul>
+		  </div>
+		 </div>
+		</div>
+	   </div>
+	  </section>
+{% endblock %}

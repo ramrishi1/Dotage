@@ -1,0 +1,51 @@
+{% extends 'signup/layout.html' %}
+{% load static %}
+{% block body %}
+
+
+
+<div class="container">
+    <div class="row"> 
+        <div class="col-6 col-sm-6">
+            <img src="{% static 'img/signup.jpg' %}" class="img-fluid">
+        </div>
+        <div class="col-6 col-sm-6">
+            <!-- ------------sign up form -->
+            <div class="row">
+                <!--------nested row ---->
+                <div class="col-6 col-sm-2">
+                    <!--nested column 1-->
+                </div>
+                
+                <div class="col-6 col-sm-8">
+                    <!----nested column 2---->
+                    <div class="card p-3 mt-5">
+                        <!------form content goes here -->
+                        <form action="">
+                            <center>
+                                <h3>Sign Up now</h3>
+                                <br>
+                                <p style="color: rgb(128, 128, 128);">Already a member ? <a href="" style="text-decoration: none;" class="stretched-link">Sign In</a></p>
+                            </center>   
+                            <label for="name">Name</label>
+                            <input type="text" placeholder= "name" class="form-control">
+                            <br>
+                            <label></label>
+                            <label for="email">E-mail</label>
+                            <input type="email" placeholder="email" class="form-control">
+                            <br>
+                            <label for="password">Password</label>
+                            <input type="password" placeholder="password" class="form-control">
+                            <br>
+                            <label for="phone">Phone Number</label>
+                            <input type="number" placeholder="number" class="form-control">
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
